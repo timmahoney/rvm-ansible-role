@@ -1,15 +1,16 @@
 ---
 galaxy_info:
-  author: Nick Janetakis
-  description: The official rvm role to install and manage your ruby versions.
-  company: 
+  author: Tim Mahoney
+  description: RVM for Centos
+  company:
   license: license (MIT)
   min_ansible_version: 1.5
 
   platforms:
-  - name: Ubuntu
+  - name: Centos
     versions:
-    - all
+    - 6
+    - 7
 
   categories:
   - development
